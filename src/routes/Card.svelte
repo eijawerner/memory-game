@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let emoji: string;
-    let hidden = false;
+    let hidden = true;
 </script>
 
 <button class={`card ${hidden? "hidden" : ''}`} on:click={() => (hidden = !hidden)}>
